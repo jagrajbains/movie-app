@@ -3,9 +3,6 @@ orbs:
   heroku: circleci/heroku@1.0.0
 jobs:
   deploy:
-    branches:
-      only:
-        - master
     executor: heroku/default
     steps:
       - checkout
@@ -50,4 +47,9 @@ workflows:
   heroku_deploy:
     jobs:
       - build
-      - deploy
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
