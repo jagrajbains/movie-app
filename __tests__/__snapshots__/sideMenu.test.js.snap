@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the SideMenu component Should render the sideMenu component without any errors 1`] = `
+Array [
+  <h1
+    className="my-4"
+  />,
+  <div
+    className="list-group"
+  >
+    <a
+      className="list-group-item"
+      href="#"
+    >
+      Category 1
+    </a>
+    <a
+      className="list-group-item"
+      href="#"
+    >
+      Category 2
+    </a>
+    <a
+      className="list-group-item"
+      href="#"
+    >
+      Category 3
+    </a>
+  </div>,
+]
+`;
