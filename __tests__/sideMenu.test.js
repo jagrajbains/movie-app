@@ -11,8 +11,7 @@ describe("Testing the SideMenu component", () => {
     });
 
     it("Should show the App name as Movie DB", () => {
-        const mockProps = "Movie DB";
-        const wrapper = shallow(<SideMenu appName={mockProps}/>);
-        expect(wrapper.find("h1").text()).toEqual("Movie DB");
+        const wrapper = shallow(<SideMenu />);
+        expect(wrapper.find("h1").text()).toEqual("Movie App");
     });
 });

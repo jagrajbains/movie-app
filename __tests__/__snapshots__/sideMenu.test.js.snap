@@ -4,7 +4,9 @@ exports[`Testing the SideMenu component Should render the sideMenu component wit
 Array [
   <h1
     className="my-4"
-  />,
+  >
+    Movie App
+  </h1>,
   <div
     className="list-group"
   >
