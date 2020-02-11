@@ -21,7 +21,7 @@ const Home = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-3">
-              <SideMenu appName="Movie DB App"/>
+              <SideMenu />
           </div>
           <div className="col-lg-9">
             <Carousel/>
