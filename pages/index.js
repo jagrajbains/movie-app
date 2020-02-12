@@ -21,7 +21,11 @@ const Home = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-3">
+<<<<<<< Updated upstream
               <SideMenu />
+=======
+              {/* <SideMenu appName="Movie DB"/> */}
+>>>>>>> Stashed changes
           </div>
           <div className="col-lg-9">
             <Carousel/>
